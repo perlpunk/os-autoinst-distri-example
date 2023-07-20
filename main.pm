@@ -19,5 +19,7 @@ use testapi;
 use autotest;
 
 autotest::loadtest 'tests/boot.pm';
+autotest::loadtest 'tests/foo/testabc.py';
+autotest::loadtest 'tests/foo/bar/testdef.py';
 
 1;
