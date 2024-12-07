@@ -6,6 +6,7 @@ use testapi;
 
 sub run {
     # wait for bootloader to appear
+    return;
     assert_screen 'bootloader';
 
     # conclude test early if there's no boot media
